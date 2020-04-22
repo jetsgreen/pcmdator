@@ -3,7 +3,7 @@
 // lastly do npm run sass"
 // don't touch css file, this is where things get compiled
 @import 'config';
-
+@import 'menu';
 
 *{
     box-sizing: border-box;
@@ -66,6 +66,8 @@ main{
         };
     }
 }
+
+
 
 
 
