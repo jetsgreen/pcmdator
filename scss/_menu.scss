@@ -60,7 +60,7 @@
     &-nav {
         margin: 0;
         padding: 0;
-        float: right;
+        float: left;
         background: darken($primary-color, 5);
         list-style: none;
         transform: translate3d(0, 100%, 0);
@@ -73,13 +73,15 @@
     }
     // Branding Slide
     &-branding {
-        background: darkblue;
+        // background: darkblue;
         transform: translate3d(0, 100%, 0);
         @include easeOut;
+    
 
         &.show{
             // Slide from bottom
             transform: translate3d(0, 0, 0,);
+            background: $primary-color;
         }
 
         .portrait{
