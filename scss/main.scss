@@ -118,6 +118,55 @@ main{
     }
 }
 
+// Portfolio
+
+.projects{
+    display: grid;
+    grid-gap: 0.7rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+    img {
+        width: 100%;
+        border: 3px black solid;
+        opacity: 0.3;
+
+        &:hover{
+            border-color: $secondary-color;
+            opacity: 1;
+            @include easeOut;
+        }
+    }
+}
+
+.button{
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+    &:hover{
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        @include easeOut;
+    }
+    &:active{
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+    }
+}
+
+.btn-dark{
+    @extend .button;
+    background: darken($primary-color, 50);
+    color: white;
+}
+
+.btn-light{
+    @extend .button;
+    background: lighten($primary-color, 50);
+    color: black;
+}
+
 #main-footer{
     width: 100%;
     left: 0;
