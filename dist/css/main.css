@@ -203,7 +203,6 @@ main {
   color: black; }
 
 .boxes {
-  font-family: cursive;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
