@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Sass Portfolio",
   "main": "index.js",
-  "homepage": "https://github.com/jetsgreen/pcmdator",
+  "homepage": "http://github.com/jetsgreen/pcmdator",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
