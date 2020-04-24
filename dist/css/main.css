@@ -249,16 +249,26 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+  #home {
+    padding: 10px; }
+  #about {
+    padding: 10px; }
+  #contact {
+    padding: 10px; }
   .text-secondary {
     align-items: center;
     text-align: center;
     font-size: 45px; }
+  .portrait {
+    margin: auto; }
   ul.menu-nav, div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0; }
     ul.menu-nav.show, div.menu-branding.show {
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0);
+      display: block;
+      text-align: center; }
   .nav-link {
     text-align: center;
     align-items: center; }
@@ -272,6 +282,19 @@ main {
     grid-template-columns: 1fr; }
   #main-footer {
     width: 100%; }
+  #work {
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 10px; }
+  .lg-heading {
+    font-size: 6rem;
+    margin: -9px;
+    margin-top: 59px; }
+  main .lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-size: 47px; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
