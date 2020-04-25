@@ -129,7 +129,7 @@ main{
     img {
         width: 100%;
         border: 3px black solid;
-        opacity: 0.3;
+        opacity: 0.6;
 
         &:hover{
             border-color: $secondary-color;
@@ -194,6 +194,50 @@ main{
     }
 
 }
+.icon{
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: solid white;
+
+    &:hover{
+        border: solid $secondary-color;
+        padding: 20px;
+        background-color: lighten($primary-color, 40);
+        @include easeOut;
+        
+    }
+     
+    #html{
+        color: red;
+       }
+       
+       #js{
+           color: yellow;
+          }
+       
+       #react{
+           color: lightskyblue;
+       }
+       #node{
+           color: green;
+           background: white;
+       }
+       #github{
+           color: black;
+       }
+       #g {
+           color: orange;
+       }
+       #database{
+           color: olive;
+       }
+    
+
+}
+
 
 
 

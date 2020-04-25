@@ -175,7 +175,7 @@ main {
   .projects img {
     width: 100%;
     border: 3px black solid;
-    opacity: 0.3; }
+    opacity: 0.6; }
     .projects img:hover {
       border-color: gold;
       opacity: 1;
@@ -220,6 +220,34 @@ main {
       color: black; }
       .boxes div:hover span {
         color: black; }
+
+.icon {
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: solid white; }
+  .icon:hover {
+    border: solid gold;
+    padding: 20px;
+    background-color: #7da0c8;
+    transition: all 0.7s ease-out; }
+  .icon #html {
+    color: red; }
+  .icon #js {
+    color: yellow; }
+  .icon #react {
+    color: lightskyblue; }
+  .icon #node {
+    color: green;
+    background: white; }
+  .icon #github {
+    color: black; }
+  .icon #g {
+    color: orange; }
+  .icon #database {
+    color: olive; }
 
 #main-footer {
   width: 100%;
