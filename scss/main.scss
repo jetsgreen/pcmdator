@@ -70,6 +70,17 @@ main{
 .dark{
     opacity: -1;
 }
+.portfolio-btn {
+    border-radius: 6px;
+    height: 45px;
+    padding: 5px;
+    background: lighten($primary-color, 30);
+    font-size: 20px;
+    &:hover{
+        background-color: darkgray;
+        color: black;
+    }
+}
 
 // Css grid: first display: grid,  then define the grid template areas and the columns, 
 // then create a grid-area
