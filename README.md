@@ -5,4 +5,4 @@ This portfolio is my latest one.  It was built with using HTML, SASS, and Javasc
 
 ### Here is the link:
 
-https://jetsgreen.github.io/pcmdator/
+https://jetsgreen.github.io/pcmdator/dist
