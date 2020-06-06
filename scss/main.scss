@@ -51,6 +51,7 @@ main{
     // height: 100%;
    min-height: calc(100vh - 60px); 
     .icons{
+        
         margin-top: 1rem;
         a {
             padding: 0.4rem;
@@ -206,8 +207,9 @@ main{
 
 }
 .icon{
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     margin: 20px;
     padding: 10px;
