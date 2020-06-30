@@ -1,7 +1,7 @@
 $primary-color: #243B55;
 $secondary-color: gold;
 $show-home-image: true;
-$home-image: url('https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')no-repeat center center/cover;
+$home-image: url('../dist/images/pofilepic.png')no-repeat center center/cover;
 $background-opacity: 0.9;
 
 @mixin easeOut {
